@@ -49,16 +49,16 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <FooterStyled>
-          <FooterBlockStyled>
+          {/*<FooterBlockStyled>
             <FooterBlockTitleStyled >matei bv</FooterBlockTitleStyled>
             <div>Straat 1</div>
             <div>Antwerpen 0000</div>
             <div>BRW XXX XXXX XXX</div>
-          </FooterBlockStyled>
+          </FooterBlockStyled>*/}
           <div style={{ marginTop: `2rem`, color: `white` }}>
             © {new Date().getFullYear()}, Built by
             {` `}
-            <a href="https://www.matei.be/" target="_blank">Matei</a> for ARK - last update {data.currentBuildDate.currentDate}
+            <a href="https://www.matei.be/" target="_blank">Matei</a> - last update {data.currentBuildDate.currentDate}
           </div>
         </FooterStyled>
       </div>

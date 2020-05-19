@@ -759,5 +759,8 @@ pre tt:after {
     }
 }
 
-
+.Typewriter{
+    font-family: Poppins;
+    margin-top: 2rem;
+}
 
