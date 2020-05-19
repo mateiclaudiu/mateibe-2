@@ -29,10 +29,10 @@ const FeatureBlock = ({title, subtitle, color, link, img})=>(
 
 const Feature = () => (
   <FeatureContainerStyled>
-    <FeatureBlock color={"#424555"} title={"Frontend"} subtitle={"Donec facilisis fermentum sem viverra"} link={"/onze-gemeenschap"} img={frontendImg}/>
-    <FeatureBlock color={"#007a80"} title={"Backend"} subtitle={"Donec facilisis fermentum sem viverra"} img={backendImg}/>
-    <FeatureBlock color={"#d97578"} title={"Website"} subtitle={"Donec facilisis fermentum sem viverra"} link={"/onze-gemeenschap#doe-met-ons-mee"} img={websiteImg}/>
-    <FeatureBlock color={"#f7a145"} title={"Architecture/design"} subtitle={"Donec facilisis fermentum sem viverra"} img={designImg}/>
+    <FeatureBlock color={"#424555"} title={"Frontend"} subtitle={""} link={"/onze-gemeenschap"} img={frontendImg}/>
+    <FeatureBlock color={"#007a80"} title={"Backend"} subtitle={""} img={backendImg}/>
+    <FeatureBlock color={"#d97578"} title={"Website"} subtitle={""} link={"/onze-gemeenschap#doe-met-ons-mee"} img={websiteImg}/>
+    <FeatureBlock color={"#f7a145"} title={"Architecture/design"} subtitle={""} img={designImg}/>
   </FeatureContainerStyled>
 )
 
