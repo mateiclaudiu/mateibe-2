@@ -42,6 +42,7 @@ export const IntroColorStyled = styled.div`
    @media (min-width: 1200px) {
     padding: ${props => props.paddingDesktop};
   }
+  animation: pulse 6s 1;
 `
 
 IntroStyled.defaultProps = {
@@ -276,7 +277,7 @@ export const JoinUsBannerStyled = styled.div`
 
 export const JoinUsTextStyled = styled.div`
   color: white;
-  background: #d14f42;
+  background: #d97578;
   padding: 3rem;
   height: 36rem;
   @media (min-width: 768px) {
@@ -307,3 +308,8 @@ MyDotStyled.defaultProps = {
 }
 
 export const ContactLabelStyled = styled.div
+
+
+export const TrackingInContractTextStyled = styled.div`
+    animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+`

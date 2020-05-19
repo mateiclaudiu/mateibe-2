@@ -21,7 +21,9 @@ const FeatureBlock = ({title, subtitle, color, link, img})=>(
     <TitleStyled fontSize={"30px"} color={"white"}>{title}</TitleStyled>
     <ItalicTitleStyled fontSize={"17px"} color={"white"}>{subtitle}</ItalicTitleStyled>
     <Bla><img src={img} style={{margin:`0`}}/></Bla>
+{/*
     <Link to={link} ><TitleStyled style={{ lineHeight: `50px` }} fontSize={"12px"} color={"white"}>ONTDEK MEER</TitleStyled></Link>
+*/}
   </FeatureBlockStyled>
 )
 
