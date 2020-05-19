@@ -16,6 +16,7 @@ import { Event, UpcomingEventList } from "../components/event"
 import introImage from "../images/together_q_50.jpeg"
 import { Contact } from "../components/contact"
 import { Joinus } from "../components/joinus"
+import { LinkedInContact } from "../components/linkedinfloating"
 
 
 
@@ -56,6 +57,7 @@ const IndexPage = () => {
       <Contact/>
     </div>
     <Joinus/>
+    <LinkedInContact/>
   </Layout>
 }
 

@@ -309,7 +309,27 @@ MyDotStyled.defaultProps = {
 
 export const ContactLabelStyled = styled.div
 
-
 export const TrackingInContractTextStyled = styled.div`
     animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.5s both;
+`
+
+export const LinkedInButton = styled.div`
+  background: rgba(0,115,177,0.26);
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  font-family: 'Muli', sans-serif;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding:1rem 0;
+ 
+ a{
+  padding: 1rem;
+ }
+ 
+ :hover{
+  background: rgb(0, 115, 177);
+    transition: .5s all;   
+ }
 `
