@@ -12,6 +12,9 @@ import { Contact } from "../components/contact"
 import { Joinus } from "../components/joinus"
 import { TwoBlockLeft, TwoBlockRight } from "../components/two-block"
 import { SectionTitle } from "../components/section-title"
+import { ItalicTitleStyled, LeaderShipStyled, TitleStyled } from "../components/styled"
+import styled from "styled-components"
+import { Clients } from "../components/clients"
 
 const IndexPage = () => {
   const { events, websites, skillsSet } = useStaticQuery(graphql`
@@ -60,6 +63,7 @@ const IndexPage = () => {
     {/*    <PageContainer>
       <UpcomingEventList events={events.edges}/>
     </PageContainer>*/}
+
     <SectionTitle title={"Skills"}/>
     <div id="backend" className="skillBlock">
       <TwoBlockLeft skillsSet={skillsSet.edges.filter(({ node }) => node.type === "backend")[0].node}
@@ -83,9 +87,10 @@ const IndexPage = () => {
     </div>
     <div id="other" className="skillBlock">
       <TwoBlockLeft skillsSet={skillsSet.edges.filter(({ node }) => node.type === "other")[0].node}
-                     color={"#007a80"}
-                     />
+                    color={"#007a80"}
+                    image={require("../images/mouth-b.png")}/>
     </div>
+    <Clients/>
     <div id="contact">
       <Contact/>
     </div>
