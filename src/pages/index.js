@@ -73,13 +73,18 @@ const IndexPage = () => {
     </div>
     <div id="website" className="skillBlock">
       <TwoBlockLeft skillsSet={skillsSet.edges.filter(({ node }) => node.type === "website")[0].node}
-                    color={"#d97578"}
+                    color={"#424555"}
                     image={require("../images/website-b.png")}/>
     </div>
     <div id="design" className="skillBlock">
       <TwoBlockRight skillsSet={skillsSet.edges.filter(({ node }) => node.type === "design")[0].node}
-                     color={"#f7a145"}
+                     color={"#d97578"}
                      image={require("../images/design-b.png")}/>
+    </div>
+    <div id="other" className="skillBlock">
+      <TwoBlockLeft skillsSet={skillsSet.edges.filter(({ node }) => node.type === "other")[0].node}
+                     color={"#007a80"}
+                     />
     </div>
     <div id="contact">
       <Contact/>

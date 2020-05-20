@@ -110,5 +110,29 @@
         "level": 93
       }
     ]
+  },
+  {
+    "type": "other",
+    "title": "Language",
+    "image": "",
+    "text": "",
+    "skills": [
+      {
+        "skill": "English",
+        "level": 80
+      },
+      {
+        "skill": "French",
+        "level": 85
+      },
+      {
+        "skill": "Dutch",
+        "level": 95
+      },
+      {
+        "skill": "Romanian",
+        "level": 95
+      }
+    ]
   }
 ]
