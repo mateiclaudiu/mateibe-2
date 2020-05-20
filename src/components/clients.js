@@ -11,6 +11,7 @@ const FlexContainerStyled = styled.div`
       justify-content: center;
     }
     text-align: center;
+    margin-bottom: 4rem;
 
 `
 
