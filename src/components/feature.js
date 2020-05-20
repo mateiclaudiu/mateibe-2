@@ -21,18 +21,18 @@ const FeatureBlock = ({title, subtitle, color, link, img})=>(
     <TitleStyled fontSize={"30px"} color={"white"}>{title}</TitleStyled>
     <ItalicTitleStyled fontSize={"17px"} color={"white"}>{subtitle}</ItalicTitleStyled>
     <Bla><img src={img} style={{margin:`0`}}/></Bla>
-{/*
+
     <Link to={link} ><TitleStyled style={{ lineHeight: `50px` }} fontSize={"12px"} color={"white"}>ONTDEK MEER</TitleStyled></Link>
-*/}
+
   </FeatureBlockStyled>
 )
 
 const Feature = () => (
   <FeatureContainerStyled>
-    <FeatureBlock color={"#424555"} title={"Backend"} subtitle={""} link={"/onze-gemeenschap"} img={backendImg}/>
-    <FeatureBlock color={"#007a80"} title={"Frontend"} subtitle={""} img={frontendImg}/>
-    <FeatureBlock color={"#d97578"} title={"Website"} subtitle={""} link={"/onze-gemeenschap#doe-met-ons-mee"} img={websiteImg}/>
-    <FeatureBlock color={"#f7a145"} title={"Architecture/design"} subtitle={""} img={designImg}/>
+    <FeatureBlock color={"#424555"} title={"Backend"} subtitle={""} link={"#backend"} img={backendImg}/>
+    <FeatureBlock color={"#007a80"} title={"Frontend"} subtitle={""} link={"#frontend"} img={frontendImg}/>
+    <FeatureBlock color={"#d97578"} title={"Website"} subtitle={""} link={"#website"} img={websiteImg}/>
+    <FeatureBlock color={"#f7a145"} title={"Architecture/design"} link={"#design"} subtitle={""} img={designImg}/>
   </FeatureContainerStyled>
 )
 

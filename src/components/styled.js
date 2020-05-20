@@ -301,7 +301,7 @@ export const TwoBlockTextStyled = styled.div`
   color: black;
   background: ${props => props.background_color};;
   padding: 3rem;
-  height: 28rem;
+  height: 25rem;
   @media (min-width: 768px) {
     padding: 4rem;
     width: 50%;
@@ -311,7 +311,7 @@ export const TwoBlockImgStyled = styled.div`
  // background: url("https://my-religion.cmsmasters.net/wp-content/uploads/2016/05/Depositphotos_76136149_original-1.jpg");
    color: white;
   background-color: ${props => props.background_color};
-  height: 28rem;
+  height: 25rem;
   padding: 3rem;
   background-size: cover;
   background-position-x: center;

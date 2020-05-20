@@ -46,7 +46,7 @@ const IndexPage = () => {
     }
   `)
 
-  console.log(skillsSet.edges.filter(({node})=> node.type==="backend")[0].node)
+  console.log(skillsSet.edges.filter(({ node }) => node.type === "backend")[0].node)
   return <Layout>
     <SEO title="Home"/>
     <Intro color={"white"}/>
@@ -57,19 +57,34 @@ const IndexPage = () => {
       <Hello/>
     </PageContainer>
     <Banner/>
-{/*    <PageContainer>
+    {/*    <PageContainer>
       <UpcomingEventList events={events.edges}/>
     </PageContainer>*/}
     <SectionTitle title={"Skills"}/>
-    <TwoBlockLeft skillsSet={skillsSet.edges.filter(({node})=> node.type==="backend")[0].node} color={"#424555"} image={require('../images/backend-b.png')}/>
-    <TwoBlockRight skillsSet={skillsSet.edges.filter(({node})=> node.type==="frontend")[0].node} color={"#007a80"} image={require('../images/frontend-b.png')}/>
-    <TwoBlockLeft skillsSet={skillsSet.edges.filter(({node})=> node.type==="website")[0].node} color={"#d97578"} image={require('../images/website-b.png')}/>
-    <TwoBlockRight skillsSet={skillsSet.edges.filter(({node})=> node.type==="design")[0].node} color={"#f7a145"} image={require('../images/design-b.png')}/>
-
+    <div id="backend" className="skillBlock">
+      <TwoBlockLeft skillsSet={skillsSet.edges.filter(({ node }) => node.type === "backend")[0].node}
+                    color={"#424555"}
+                    image={require("../images/backend-b.png")}/>
+    </div>
+    <div id="frontend" className="skillBlock">
+      <TwoBlockRight skillsSet={skillsSet.edges.filter(({ node }) => node.type === "frontend")[0].node}
+                     color={"#007a80"}
+                     image={require("../images/frontend-b.png")}/>
+    </div>
+    <div id="website" className="skillBlock">
+      <TwoBlockLeft skillsSet={skillsSet.edges.filter(({ node }) => node.type === "website")[0].node}
+                    color={"#d97578"}
+                    image={require("../images/website-b.png")}/>
+    </div>
+    <div id="design" className="skillBlock">
+      <TwoBlockRight skillsSet={skillsSet.edges.filter(({ node }) => node.type === "design")[0].node}
+                     color={"#f7a145"}
+                     image={require("../images/design-b.png")}/>
+    </div>
     <div id="contact">
       <Contact/>
     </div>
-{/*    <Joinus/>*/}
+    {/*    <Joinus/>*/}
   </Layout>
 }
 

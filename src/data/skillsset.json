@@ -35,11 +35,19 @@
       },
       {
         "skill": "react",
-        "level": 70
+        "level": 83
       },
       {
         "skill": "angular",
-        "level": 75
+        "level": 82
+      },
+      {
+        "skill": "CSS",
+        "level": 70
+      },
+      {
+        "skill": "HTML",
+        "level": 79
       }
     ]
   },
@@ -92,6 +100,14 @@
       {
         "skill": "Design Patterns",
         "level": 79
+      },
+      {
+        "skill": "TDD",
+        "level": 84
+      },
+      {
+        "skill": "Agile (Scrum & Kanban)",
+        "level": 93
       }
     ]
   }
