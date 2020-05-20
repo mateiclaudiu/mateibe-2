@@ -11,8 +11,9 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import { FooterStyled } from "./styled"
+import { FooterStyled, LinkedInButton } from "./styled"
 import styled from "styled-components"
+import { GrLinkedin } from 'react-icons/gr';
 
 const FooterBlockStyled = styled.div`
   margin-bottom:1rem;
@@ -48,7 +49,9 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+
         <FooterStyled>
+          <GrLinkedin/> <a style={{ textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/claudiumatei/" target="_blank">Let's connect on LinkedIn</a>
           {/*<FooterBlockStyled>
             <FooterBlockTitleStyled >matei bv</FooterBlockTitleStyled>
             <div>Straat 1</div>

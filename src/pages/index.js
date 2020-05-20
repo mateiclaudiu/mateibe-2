@@ -1,24 +1,15 @@
-import React, { Component } from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
-import styled from "styled-components"
-
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Intro from "../components/intro"
 import Feature from "../components/feature"
-import { FeatureBlockStyled, HelloContainerStyled, IntroStyled, ItalicTitleStyled, TitleStyled } from "../components/styled"
 import { Hello } from "../components/hello"
 import { Banner } from "../components/banner"
-import { SectionTitle, SectionTitleForDarkMode } from "../components/section-title"
 import { PageContainer } from "../components/page-container"
-import { Event, UpcomingEventList } from "../components/event"
-import introImage from "../images/together_q_50.jpeg"
+import { UpcomingEventList } from "../components/event"
 import { Contact } from "../components/contact"
 import { Joinus } from "../components/joinus"
-import { LinkedInContact } from "../components/linkedinfloating"
-
-
 
 const IndexPage = () => {
   const { events, websites } = useStaticQuery(graphql`
@@ -57,7 +48,6 @@ const IndexPage = () => {
       <Contact/>
     </div>
     <Joinus/>
-    <LinkedInContact/>
   </Layout>
 }
 
