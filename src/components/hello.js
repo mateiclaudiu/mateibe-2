@@ -6,14 +6,7 @@ export const Hello = () => (
   <div>
     <SectionTitle title={"Hello & Welcome"} subtitle={"A small introduction"}/>
     <ColumnStyled>
-      <div>Het was de tijd van terug opbloeiende oecumenische dialoog. De behoefde om elkaar beter te leren kennen, samen te discussiëren, in debat te gaan
-        en
-        vooral ook samen te kunnen bezinnen en bidden, groeide en vroeg om een behoudend orgaan.
-        Deze interkerkelijke raad heeft zich tot doel gesteld de oecumenische contacten in de Provincie Antwerpen
-        te bevorderen en de christenen onder elkaar gevoelig te maken voor het belang om samen hun geloof te
-        kunnen en mogen belijden en beleven met het oog op de eenheid.
-
-      </div>
+      <div>Ik werk al meer als vier jaar als consultant voor verschillende grote klanten in België elks in een verschillend domein. Meer bepaald als fullstack developer.</div>
       <div style={{ marginTop: `20px` }}>
 
         In zijn samenstelling is de raad een ruimte van ontmoeting en bewustwording

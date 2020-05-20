@@ -32,7 +32,6 @@ export const Joinus = () =>(
         </div>
         <ButtonStyled type="submit">Stuur</ButtonStyled>
       </SmallContactFormStyled>
-
     </JoinUsTextStyled>
   </JoinUsBannerStyled>
 )

@@ -1,0 +1,98 @@
+[
+  {
+    "type": "backend",
+    "title": "Backend Development",
+    "image": "",
+    "text": "",
+    "skills": [
+      {
+        "skill": "java",
+        "level": 90
+      },
+      {
+        "skill": "kotlin",
+        "level": 70
+      },
+      {
+        "skill": "aws",
+        "level": 87
+      },
+      {
+        "skill": "database",
+        "level": 81
+      }
+    ]
+  },
+  {
+    "type": "frontend",
+    "title": "Frontend Development",
+    "image": "",
+    "text": "",
+    "skills": [
+      {
+        "skill": "javascript",
+        "level": 90
+      },
+      {
+        "skill": "react",
+        "level": 70
+      },
+      {
+        "skill": "angular",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "type": "website",
+    "title": "Website Development",
+    "image": "",
+    "text": "",
+    "skills": [
+      {
+        "skill": "Netifly",
+        "level": 80
+      },
+      {
+        "skill": "Gatsby",
+        "level": 83
+      },
+      {
+        "skill": "Wordpress",
+        "level": 75
+      },
+      {
+        "skill": "UI",
+        "level": 86
+      },
+      {
+        "skill": "UX",
+        "level": 75
+      }
+    ]
+  },
+  {
+    "type": "design",
+    "title": "Architecture/Design",
+    "image": "",
+    "text": "",
+    "skills": [
+      {
+        "skill": "Domain Driven Design",
+        "level": 89
+      },
+      {
+        "skill": "Clean Code",
+        "level": 93
+      },
+      {
+        "skill": "Hexadiagonal Architecture",
+        "level": 87
+      },
+      {
+        "skill": "Design Patterns",
+        "level": 79
+      }
+    ]
+  }
+]
