@@ -20,6 +20,10 @@
       {
         "skill": "database",
         "level": 81
+      },
+      {
+        "skill": "CI/CD",
+        "level": 76
       }
     ]
   },
