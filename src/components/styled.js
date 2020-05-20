@@ -89,7 +89,7 @@ export const SectionStyled = styled.div`
 `
 
 export const ColumnStyled = styled.div`
-  color: gray;
+  color: black;
   column-count: unset;
   @media (min-width: 768px) {  
      column-count: 2;
@@ -98,7 +98,7 @@ export const ColumnStyled = styled.div`
 `
 
 export const BannerStyled = styled.div`
-  background-color: #424555;
+  background-color: #f7a145;
   padding: 1% 5%;
   width:30%;
   width: 100%;
@@ -137,7 +137,7 @@ export const BannerTextStyled = styled.div`
 
 export const FooterStyled = styled.footer`
   //background: #a2473e;
-  background: #31333b;
+  background: #212121;
   color: #71717f;
   font-family: Poppins;
   font-size: 0.8rem;
@@ -162,20 +162,18 @@ export const LeaderShipContainerStyled = styled.div`
 
 export const LeaderShipStyled = styled.div`
     margin: 5rem auto 0 auto;
-    width: 50%;
+    width: 10%;
     text-align: center;
 
   
   img{
     border-radius: 0%;
-    width: 11rem;
-    height: 11rem;
     margin-bottom: 1rem;
   }
   
     @media (min-width: 768px) {
       margin: 1rem 5rem 4rem 5rem;
-      width: 33%;
+      max-width: 13%;
       flex-grow: 1;
       display: inline-block;
       flex: 1 0 21%;

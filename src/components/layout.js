@@ -56,9 +56,9 @@ const Layout = ({ children }) => {
             <div>BRW XXX XXXX XXX</div>
           </FooterBlockStyled>*/}
           <div style={{ marginTop: `2rem`, color: `white` }}>
-            © {new Date().getFullYear()}, Built by
+            © {new Date().getFullYear()}
             {` `}
-            <a href="https://www.matei.be/" target="_blank">Matei</a> - last update {data.currentBuildDate.currentDate}
+            <a href="https://www.matei.be/" target="_blank">matei</a> - last update {data.currentBuildDate.currentDate}
           </div>
         </FooterStyled>
       </div>

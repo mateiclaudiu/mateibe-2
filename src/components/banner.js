@@ -8,16 +8,18 @@ export const Banner = () => (
       <img src={clau} style={{ borderRadius: `50%`, width:`12rem`}}/>
     </BannerImgStyled>
     <BannerTextStyled>
+{/*
       <TitleStyled fontSize={"30px"} color={"white"}>Claudiu Matei</TitleStyled>
+*/}
 {/*
       <ItalicTitleStyled fontSize={"17px"} color={"#d14f42"}>Voorzitter</ItalicTitleStyled>
 */}
       <p style={{
-        color: `darkgray`,
+        color: `white`,
         marginTop: `10px`,
         fontSize: `1.3rem`,
         fontStyle: `italic`
-      }}>"Every event in your life is an opportunity to broaden your growth and improve yourself.<br/>Be a motivation for otherss not by what you say but by what you do."</p>
+      }}>"Every event in your life is an opportunity to broaden your growth and improve yourself.<br/>Be a motivation for others not only by what you say but by what you do."</p>
     </BannerTextStyled>
   </BannerStyled>
 )
