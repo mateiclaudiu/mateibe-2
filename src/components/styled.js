@@ -298,7 +298,7 @@ export const JoinUsImageStyled = styled.div`
 `
 export const MyDotStyled = styled.span`
   color: ${props => props.color};
-  font-family: sans-serif;    
+  font-family: Poppins;
 `
 
 MyDotStyled.defaultProps = {
