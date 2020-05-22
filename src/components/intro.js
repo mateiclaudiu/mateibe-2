@@ -16,7 +16,7 @@ const Intro = ({ color }) => (
   <IntroColorStyled color={color}>
     <div style={{ margin: `auto` }}>
       <TitleStyled fontSize={"6em"} color={"#007a80"}>matei<MyDot/></TitleStyled>
-      <TrackingInContractTextStyled><TitleStyled fontSize={"1.5em"} color={"#d97478"}>Freelance Developer</TitleStyled></TrackingInContractTextStyled>
+      <TrackingInContractTextStyled><TitleStyled fontSize={"1.5em"} color={"#d97478"}>Software Developer</TitleStyled></TrackingInContractTextStyled>
 
 
       <Typewriter
