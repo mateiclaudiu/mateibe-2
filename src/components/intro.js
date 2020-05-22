@@ -26,9 +26,6 @@ const Intro = ({ color }) => (
           typewriter
             .pauseFor(1500)
             .typeString("Hello World! ")
-            .callFunction(() => {
-              console.log("String typed out!")
-            })
             .pauseFor(500)
             .typeString("I am Claudiu Matei")
             .pauseFor(1000)
