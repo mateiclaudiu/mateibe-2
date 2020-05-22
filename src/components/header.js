@@ -130,7 +130,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}<MyDot color={"white"}/>
+          {siteTitle}<MyDot/>
         </Link>
       </h1>
       <NavStyled>
