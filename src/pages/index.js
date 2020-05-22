@@ -50,9 +50,7 @@ const IndexPage = () => {
   return <Layout>
     <SEO title="Home"/>
     <Intro color={"white"}/>
-
     <Feature/>
-
     <PageContainer>
       <Hello/>
     </PageContainer>

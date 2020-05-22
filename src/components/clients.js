@@ -49,7 +49,7 @@ export const Clients = () => (
         <img src={require("../images/clients/cronos-groep.png")}/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/de-juristen.jpg")}/>
+        <img src={require("../images/clients/de-juristen.jpg")} style={{height:'7rem'}}/>
       </FlexItemStyled>
     </FlexContainerStyled>
   </div>
