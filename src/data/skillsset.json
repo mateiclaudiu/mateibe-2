@@ -35,19 +35,19 @@
     "skills": [
       {
         "skill": "javascript",
-        "level": 90
+        "level": 81
       },
       {
         "skill": "react",
-        "level": 83
+        "level": 79
       },
       {
         "skill": "angular",
-        "level": 82
+        "level": 75
       },
       {
         "skill": "CSS",
-        "level": 70
+        "level":68
       },
       {
         "skill": "HTML",
