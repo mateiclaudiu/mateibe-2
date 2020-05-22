@@ -37,10 +37,13 @@ export const Clients = () => (
         <img src={require("../images/clients/nobel-biocare.png")}/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/digipolis.png")}/>
+        <img src={require("../images/clients/logo-cheops.svg")} style={{height:'3rem'}}/>
       </FlexItemStyled>
       <FlexItemStyled>
         <img src={require("../images/clients/ABVV-FGTB.png")}/>
+      </FlexItemStyled>
+      <FlexItemStyled>
+        <img src={require("../images/clients/digipolis.png")}/>
       </FlexItemStyled>
       <FlexItemStyled>
         <img src={require("../images/clients/cronos-groep.png")}/>
