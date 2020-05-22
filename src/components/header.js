@@ -135,7 +135,7 @@ const Header = ({ siteTitle }) => (
         <ul id="navigation">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/#skills">Skills</Link></li>
-          <li><Link to="/#projects-experience">Projects experience</Link></li>
+          <li><Link to="/#projectsExperience">Projects experience</Link></li>
           <li><Link to="/#contact" activeStyle={{ color: "#d97478" }}>Contact</Link></li>
         </ul>
       </NavStyled>
