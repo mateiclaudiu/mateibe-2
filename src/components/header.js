@@ -7,6 +7,7 @@ import { MyDot } from "./mydot"
 const HeaderStyled = styled.div`
   background: #212121;
   border-bottom: 1px #707176 solid;
+  animation: pulseblk 6s 1;
 
   @media (min-width: 768px) {
     position: fixed;
@@ -43,6 +44,7 @@ const NavStyled = styled.div`
   text-transform: uppercase;
   color:white;
   background:#212121;
+  animation: pulseblk 6s 1;
 
   ul{
     margin: 0;

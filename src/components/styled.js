@@ -29,6 +29,7 @@ export const IntroStyled = styled.div`
 `
 
 export const IntroColorStyled = styled.div`
+  height: 100vh;
   padding: ${props => props.padding};
   text-align: center;
   background: ${props => props.color};
@@ -37,7 +38,7 @@ export const IntroColorStyled = styled.div`
   background-position-y: 75%;
   align-items: center;
   display: flex;
-  height: 40rem;
+  //height: 40rem;
   //filter: contrast(0.8);
    @media (min-width: 1200px) {
     padding: ${props => props.paddingDesktop};
