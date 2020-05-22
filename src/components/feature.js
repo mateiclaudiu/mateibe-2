@@ -31,8 +31,8 @@ const Feature = () => (
   <FeatureContainerStyled>
     <FeatureBlock color={"#424555"} title={"Backend"} subtitle={""} link={"#backend"} img={backendImg}/>
     <FeatureBlock color={"#007a80"} title={"Frontend"} subtitle={""} link={"#frontend"} img={frontendImg}/>
-    <FeatureBlock color={"#424555"} title={"Website"} subtitle={""} link={"#website"} img={websiteImg}/>
-    <FeatureBlock color={"#d97578"} title={"Architecture/design"} link={"#design"} subtitle={""} img={designImg}/>
+    <FeatureBlock color={"#d97578"} title={"Website"} subtitle={""} link={"#website"} img={websiteImg}/>
+    <FeatureBlock color={"#424555"} title={"Architecture/design"} link={"#design"} subtitle={""} img={designImg}/>
   </FeatureContainerStyled>
 )
 

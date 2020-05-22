@@ -17,7 +17,7 @@ const ColorBlock = ({title, websiteImg, color}) =>(
 )
 
 const WhiteBlock = ({skills, color}) => (
-  <TwoBlockTextStyled background_color={"white"} id="doe-met-ons-mee">
+  <TwoBlockTextStyled background_color={"white"} id="doe-met-ons-mee" border_color={color}>
     {
       skills.map((s) => (
         <SkillBar skill={s.skill} level={s.level} color={color}/>

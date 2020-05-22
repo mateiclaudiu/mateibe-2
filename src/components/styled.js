@@ -299,12 +299,15 @@ export const JoinUsImageStyled = styled.div`
 export const TwoBlockTextStyled = styled.div`
   font-family: Poppins;
   color: black;
-  background: ${props => props.background_color};;
+  background: ${props => props.background_color};
   padding: 3rem;
   height: 25rem;
+  border-bottom: 1px solid ${props => props.border_color} ;
+  //border-top: 1px solid ${props => props.border_color} ;
   @media (min-width: 768px) {
     padding: 4rem;
     width: 50%;
+    border: none;
   }  
 `
 export const TwoBlockImgStyled = styled.div`

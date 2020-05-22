@@ -9,6 +9,7 @@ const FlexContainerStyled = styled.div`
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
     }
     text-align: center;
     margin-bottom: 4rem;
@@ -17,6 +18,7 @@ const FlexContainerStyled = styled.div`
 
 const FlexItemStyled = styled.div`
     padding: 0 3rem;
+    flex-basis: 33.333333%;
     img {
       height: 5rem;
     }
