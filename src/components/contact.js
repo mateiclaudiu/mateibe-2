@@ -8,7 +8,8 @@ export const Contact = () => (
   <ContactStyled>
     <PageContainer>
       <SectionTitleForDarkMode title={"Contact"} subtitle={"let me buy you an espresso"}/>
-      <form method="post" action="#">
+      <form name="Contact Form" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="Contact Form" />
         <div>
           <label><ItalicTitleStyled fontSize={"0.8rem"} color={"white"}>Name</ItalicTitleStyled></label>
           <div><input type="text" name="name" id="name" width="30rem"/>
