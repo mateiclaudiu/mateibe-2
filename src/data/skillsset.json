@@ -59,7 +59,7 @@
     "type": "website",
     "title": "Website Development",
     "image": "",
-    "text": "",
+    "text": "Do you need a nice looking and professional website with a good user experience for your organisation or business? <b>Let's build it together!</b>",
     "skills": [
       {
         "skill": "Netifly",
@@ -87,7 +87,7 @@
     "type": "design",
     "title": "Architecture/Design",
     "image": "",
-    "text": "",
+    "text": "\"Don't live with broken windows\". The benefit in software development is that you can (<i>easily</i>) change the architecture and design of your application even when it is already build. <b>Keep</b> asking the question: <b>What can I do better?</b>",
     "skills": [
       {
         "skill": "Domain Driven Design",
@@ -119,7 +119,7 @@
     "type": "other",
     "title": "Language",
     "image": "",
-    "text": "",
+    "text": "Programming languages are very important as a software developer, but as a living being, are human languages very useful.",
     "skills": [
       {
         "skill": "English",
