@@ -13,7 +13,8 @@ import Header from "./header"
 import "./layout.css"
 import { FooterStyled, LinkedInButton } from "./styled"
 import styled from "styled-components"
-import { GrLinkedin } from 'react-icons/gr';
+import { GrLinkedin ,GrTwitter} from 'react-icons/gr';
+import { RiStackOverflowLine } from "react-icons/ri"
 
 const FooterBlockStyled = styled.div`
   margin-bottom:1rem;
@@ -51,7 +52,16 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 
         <FooterStyled>
-          <GrLinkedin/> <a style={{ textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/claudiumatei/" target="_blank">Let's connect on LinkedIn</a>
+          <div>
+            <GrLinkedin/> <a style={{ textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/claudiumatei/" target="_blank">Let's connect
+            on LinkedIn</a>
+          </div>
+          <div>
+            <RiStackOverflowLine/> <a style={{ textDecoration: "none", color: "white" }} href="https://stackoverflow.com/users/4834129/claudiu" target="_blank">Stackoverflow</a>
+          </div>
+          <div>
+            <GrTwitter/> <a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/ClaudiuStack" target="_blank">Twitter</a>
+          </div>
           {/*<FooterBlockStyled>
             <FooterBlockTitleStyled >matei bv</FooterBlockTitleStyled>
             <div>Straat 1</div>

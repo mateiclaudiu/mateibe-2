@@ -148,7 +148,7 @@ export const FooterStyled = styled.footer`
   a{
     text-decoration: none;
     color: inherit;
-    font-weight: 600;
+    font-weight: 500;
   }
 `
 

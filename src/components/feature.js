@@ -7,6 +7,7 @@ import designImg from "../images/design.png"
 import websiteImg from "../images/website.png"
 import frontendImg from "../images/frontend.png"
 import styled from "styled-components"
+import { TiArrowSortedDown } from "react-icons/ti"
 
 
 const Bla = styled.div`
