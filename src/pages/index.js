@@ -48,7 +48,7 @@ const IndexPage = () => {
 
   console.log(skillsSet.edges.filter(({ node }) => node.type === "backend")[0].node)
   return <Layout>
-    <SEO title="Home"/>
+    <SEO title="Software developer" description="Fullstack software developer with frontend and backend skills working as a consultant"/>
     <Intro color={"white"}/>
     <Feature/>
     <PageContainer>
