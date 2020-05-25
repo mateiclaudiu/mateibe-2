@@ -12,6 +12,11 @@ import { TwoBlockLeft, TwoBlockRight } from "../components/two-block"
 import { SectionTitle } from "../components/section-title"
 import { Clients } from "../components/clients"
 import { Skills } from "../components/skills"
+import styled from "styled-components"
+import { BackToTop } from "../components/back-to-top"
+
+
+
 
 const IndexPage = () => {
   const { events, websites, skillsSet } = useStaticQuery(graphql`
@@ -62,6 +67,7 @@ const IndexPage = () => {
     <Clients/>
     <Contact/>
     {/*    <Joinus/>*/}
+    <BackToTop/>
   </Layout>
 }
 

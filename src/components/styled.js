@@ -360,3 +360,23 @@ export const LinkedInButton = styled.div`
     transition: .5s all;   
  }
 `
+
+export const BackToTopStyled = styled.div`
+  height: 3rem;
+  width: 3rem;
+  background-color: rgba(217,117,120,0.8);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  text-align: center;
+  padding: 0.9rem;
+  color: white;
+  font-family: Poppins;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  cursor:pointer;
+   @media (min-width: 768px) {
+    display: none;
+  } 
+`
+
