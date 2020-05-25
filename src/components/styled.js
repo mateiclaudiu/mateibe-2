@@ -372,8 +372,8 @@ export const BackToTopStyled = styled.div`
   padding: 0.9rem;
   color: white;
   font-family: Poppins;
-  border-right: 1px solid gray;
-  border-bottom: 1px solid gray;
+  //border-right: 1px solid gray;
+  //border-bottom: 1px solid gray;
   cursor:pointer;
    @media (min-width: 768px) {
     display: none;
