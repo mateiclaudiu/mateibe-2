@@ -26,7 +26,7 @@ const FlexItemStyled = styled.div`
 `
 
 export const Clients = () => (
-  <div id="projectsExperience">
+  <div id="projects-experience">
     <SectionTitle title={"Project experience"}/>
 
     <FlexContainerStyled>

@@ -3,6 +3,7 @@ module.exports = {
     title: `matei`,
     description: `Software Developer`,
     author: `@Claudiu Matei`,
+    siteUrl: `https://www.matei.be`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,9 +20,9 @@ module.exports = {
         name: `graveyard`,
         path: `${__dirname}/src/data/`,
         plugins: [
-          `gatsby-transformer-json`
-        ]
-      }
+          `gatsby-transformer-json`,
+        ],
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -43,11 +44,11 @@ module.exports = {
         fonts: [
           {
             family: `Poppins`,
-            variants: [`300`,`600`,`900`]
+            variants: [`300`, `600`, `900`],
           },
           {
             family: `Roboto`,
-            subsets: [`latin`]
+            subsets: [`latin`],
           },
         ],
       },
@@ -63,7 +64,7 @@ module.exports = {
       options: {
         formatAsDateString: true, // boolean, defaults to true - if false API will return unformatted string from new Date()
         formatting: {
-          format: 'dddd D MMMM YYYY', // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
+          format: "dddd D MMMM YYYY", // string, defaults to "MM/DD/YYYY" - pass in any acceptable date-and-time format
           utc: false, // boolean, defaults to false - output time as UTC or not, following date-and-time API
         },
         locale: null, // string, defaults to null, which date-and-time defaults as "en" - whether to localize the date or not, can use any available
@@ -72,6 +73,35 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-   //  `gatsby-plugin-offline`,
+    //  `gatsby-plugin-offline`,
+
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        serialize: ({ site, allSitePage }) =>
+          [
+            {
+              url: `${site.siteMetadata.siteUrl}`,
+              changefreq: `daily`,
+              priority: 0.7,
+            },
+            {
+              url: `${site.siteMetadata.siteUrl}#skills`,
+              changefreq: `daily`,
+              priority: 0.7,
+            },
+            {
+              url: `${site.siteMetadata.siteUrl}#projects-experience`,
+              changefreq: `daily`,
+              priority: 0.7,
+            },
+            {
+              url: `${site.siteMetadata.siteUrl}#contact`,
+              changefreq: `daily`,
+              priority: 0.7,
+            }
+          ],
+      },
+    },
   ],
 }
