@@ -21,7 +21,7 @@ const Intro = ({ color }) => (
 
       <Typewriter
         className={"typeWriter"}
-        options={{ cursor: "", loop: true }}
+        options={{ cursor: "", loop: true, delay: 50 }}
         onInit={(typewriter) => {
           typewriter
             .pauseFor(1500)
