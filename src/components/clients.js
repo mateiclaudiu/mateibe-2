@@ -2,28 +2,9 @@ import { SectionTitle } from "./section-title"
 import Layout from "./layout"
 import React from "react"
 import styled from "styled-components"
+import { FlexContainerStyled, FlexItemStyled } from "./styled"
 
-const FlexContainerStyled = styled.div`
-    @media (min-width: 768px) {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    text-align: center;
-    margin-bottom: 4rem;
 
-`
-
-const FlexItemStyled = styled.div`
-    padding: 0 3rem;
-    flex-basis: 33.333333%;
-    img {
-      height: 5rem;
-    }
-    
-`
 
 export const Clients = () => (
   <div id="projects-experience">

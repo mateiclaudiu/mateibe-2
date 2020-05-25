@@ -14,6 +14,7 @@ import { Clients } from "../components/clients"
 import { Skills } from "../components/skills"
 import styled from "styled-components"
 import { BackToTop } from "../components/back-to-top"
+import { Certificates } from "../components/certificates"
 
 
 
@@ -65,6 +66,7 @@ const IndexPage = () => {
     </PageContainer>*/}
     <Skills skillsSet={skillsSet}/>
     <Clients/>
+    <Certificates />
     <Contact/>
     {/*    <Joinus/>*/}
     <BackToTop/>
