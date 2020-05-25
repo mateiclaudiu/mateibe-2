@@ -99,6 +99,11 @@ module.exports = {
               url: `${site.siteMetadata.siteUrl}#contact`,
               changefreq: `daily`,
               priority: 0.7,
+            },
+            {
+              url: `${site.siteMetadata.siteUrl}#certificates`,
+              changefreq: `daily`,
+              priority: 0.7,
             }
           ],
       },
