@@ -87,7 +87,7 @@
     "type": "design",
     "title": "Architecture/Design",
     "image": "",
-    "text": "\"Don't live with broken windows\". The benefit in software development is that you can (<i>easily</i>) change the architecture and design of your application even when it is already build. <b>Keep</b> asking the question: <b>What can I do better?</b>",
+    "text": "\"Don't live with broken windows\". The benefit in software development is that you can <i>(easily)</i> change the architecture and design of your application even when it is already built. <b>Keep</b> asking the question: <b>What can I do better?</b>",
     "skills": [
       {
         "skill": "Domain Driven Design",
