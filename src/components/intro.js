@@ -26,7 +26,6 @@ const Intro = ({ color }) => (
           typewriter
             .pauseFor(1500)
             .typeString("Hello World! ")
-            .pauseFor(500)
             .typeString("I am Claudiu Matei")
             .pauseFor(1000)
             .deleteChars(13)
