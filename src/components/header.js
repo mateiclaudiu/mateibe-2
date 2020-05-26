@@ -48,7 +48,7 @@ const HeaderDivStyled = styled.div`
 const NavStyled = styled.div`
   display: ${props => props.toggled? 'none': props.display};
   font-family: Poppins;
-  font-size: 0.7rem;
+  font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
   color:white;
@@ -83,7 +83,7 @@ const NavStyled = styled.div`
   @media (min-width: 768px) {
     margin-right: 7rem;
     display: ${props => props.display};
-
+    font-size: 0.7rem;
 
     ul{
       display: flex;  
