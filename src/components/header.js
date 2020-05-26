@@ -9,6 +9,8 @@ const ToggleStyled = styled.div`
   color: white;
   font-size: 3rem;
   text-align: right;
+  position: relative;
+  bottom: -42px;
   @media (min-width: 768px) {
     display: none;
   }
