@@ -1,9 +1,18 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, {useState} from "react"
 import styled from "styled-components"
 import { MyDot } from "./mydot"
+import { GiHamburgerMenu } from "react-icons/gi"
 
+const ToggleStyled = styled.button`
+  color: white;
+  font-size: 2rem;
+  
+  @media (min-width: 768px) {
+    display: none;
+  }
+`
 const HeaderStyled = styled.div`
   background: #212121;
   border-bottom: 1px #707176 solid;
@@ -44,8 +53,6 @@ const NavStyled = styled.div`
   text-transform: uppercase;
   color:white;
   background:#212121;
-  animation: pulseblk 6s 1;
-
   ul{
     margin: 0;
   }
@@ -70,9 +77,13 @@ const NavStyled = styled.div`
   a:hover{
     cursor: pointer;
   }
+  display: ${props => props.toggled ? 'none':'inherit'} ;
+
   
   @media (min-width: 768px) {
+    display: inherit;
     margin-right: 7rem;
+    animation: pulseblk 6s 1;
 
     ul{
       display: flex;  
@@ -113,8 +124,11 @@ NavStyled.defaultProps = {
   display: "visible",
 }
 
-const Header = ({ siteTitle }) => (
-  <HeaderStyled>
+const Header = ({ siteTitle }) => {
+  const [count, setCount] = useState(0);
+  const [toggled, setToggled] = useState(true);
+
+ return <HeaderStyled>
     <HeaderDivStyled
       style={{
         margin: `0 auto`,
@@ -122,7 +136,8 @@ const Header = ({ siteTitle }) => (
         padding: `0 1.0875rem`,
       }}
     >
-      <h1 style={{  fontFamily: `Poppins`, fontSize:`2rem`,   fontWeight: 600}}>
+      <div>
+      <h1 style={{ fontFamily: `Poppins`, fontSize: `2rem`, fontWeight: 600 }}>
         <Link
           to="/"
           style={{
@@ -133,8 +148,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}<MyDot/>
         </Link>
       </h1>
-      <NavStyled>
-        <ul id="navigation">
+
+        <ToggleStyled onClick={() => setToggled(!toggled)}>
+          <GiHamburgerMenu/>
+        </ToggleStyled>
+      </div>
+     {/* <NavStyled style={{display: toggled? `none`:`inherit`}}>*/}
+      <NavStyled toggled={toggled}>
+        <ul id="navigation" >
           <li><Link to="/">Home</Link></li>
           <li><Link to="/#skills">Skills</Link></li>
           <li><Link to="/#projects-experience">Projects experience</Link></li>
@@ -143,7 +164,7 @@ const Header = ({ siteTitle }) => (
       </NavStyled>
     </HeaderDivStyled>
   </HeaderStyled>
-)
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
