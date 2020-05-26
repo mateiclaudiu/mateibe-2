@@ -6,7 +6,15 @@ export const ItalicTitleStyled = styled.div`
   color: ${props => props.color};
 `
 
-export const TitleStyled = styled.div`
+export const TitleStyled = styled.h1`
+  color: ${props => props.color};
+  font-size: ${props => props.fontSize};
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 1rem;
+`
+export const Title2Styled = styled.h2`
   color: ${props => props.color};
   font-size: ${props => props.fontSize};
   font-family: Poppins;
