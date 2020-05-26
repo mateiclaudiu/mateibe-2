@@ -43,6 +43,7 @@ const Intro = ({ color }) => (
             .pauseFor(1000)
             .deleteChars(fourthText.length)
             .typeString("enjoy spending time with my family")
+            .pauseFor(1000)
             .start()
         }}
       />
