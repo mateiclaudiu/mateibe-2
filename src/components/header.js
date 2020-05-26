@@ -1,14 +1,14 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, {useState} from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import { MyDot } from "./mydot"
 import { GiHamburgerMenu } from "react-icons/gi"
 
 const ToggleStyled = styled.div`
   color: white;
-  font-size: 2rem;
-  
+  font-size: 3rem;
+  text-align: right;
   @media (min-width: 768px) {
     display: none;
   }
@@ -46,13 +46,15 @@ const HeaderDivStyled = styled.div`
 `
 
 const NavStyled = styled.div`
-  display: ${props => props.display};
+  display: ${props => props.toggled? 'none': props.display};
   font-family: Poppins;
   font-size: 0.7rem;
   font-weight: 600;
   text-transform: uppercase;
   color:white;
   background:#212121;
+  animation: pulseblk 6s 1;
+
   ul{
     margin: 0;
   }
@@ -77,13 +79,11 @@ const NavStyled = styled.div`
   a:hover{
     cursor: pointer;
   }
-  display: ${props => props.toggled ? 'none':'inherit'} ;
-
   
   @media (min-width: 768px) {
-    display: inherit;
     margin-right: 7rem;
-    animation: pulseblk 6s 1;
+    display: ${props => props.display};
+
 
     ul{
       display: flex;  
@@ -121,14 +121,16 @@ const NavStyled = styled.div`
 `
 
 NavStyled.defaultProps = {
-  display: "visible",
+  display: "unset",
 }
 
 const Header = ({ siteTitle }) => {
-  const [count, setCount] = useState(0);
-  const [toggled, setToggled] = useState(true);
-
- return <HeaderStyled>
+  const [toggled, setToggled] = useState(true)
+  return(
+  <HeaderStyled>
+    <ToggleStyled onClick={() => setToggled(!toggled)}>
+      <GiHamburgerMenu/>
+    </ToggleStyled>
     <HeaderDivStyled
       style={{
         margin: `0 auto`,
@@ -136,7 +138,6 @@ const Header = ({ siteTitle }) => {
         padding: `0 1.0875rem`,
       }}
     >
-      <div>
       <h1 style={{ fontFamily: `Poppins`, fontSize: `2rem`, fontWeight: 600 }}>
         <Link
           to="/"
@@ -148,14 +149,8 @@ const Header = ({ siteTitle }) => {
           {siteTitle}<MyDot/>
         </Link>
       </h1>
-
-        <ToggleStyled onClick={() => setToggled(!toggled)}>
-          <GiHamburgerMenu/>
-        </ToggleStyled>
-      </div>
-     {/* <NavStyled style={{display: toggled? `none`:`inherit`}}>*/}
       <NavStyled toggled={toggled}>
-        <ul id="navigation" >
+        <ul id="navigation">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/#skills">Skills</Link></li>
           <li><Link to="/#projects-experience">Projects experience</Link></li>
@@ -163,7 +158,7 @@ const Header = ({ siteTitle }) => {
         </ul>
       </NavStyled>
     </HeaderDivStyled>
-  </HeaderStyled>
+  </HeaderStyled>)
 }
 
 Header.propTypes = {
