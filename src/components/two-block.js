@@ -39,7 +39,7 @@ const ColorBlock = ({ title, websiteImg, color, text }) => (
   <TwoBlockImgStyled background_color={color}>
     <TitleStyled fontSize={"1.5rem"} color={"white"}>{title}</TitleStyled>
     <DesktopFlexedStyled>
-      <img src={websiteImg}/>
+      <img src={websiteImg} alt={title} title={title}/>
       <span dangerouslySetInnerHTML={{ __html: text }}/>
     </DesktopFlexedStyled>
   </TwoBlockImgStyled>

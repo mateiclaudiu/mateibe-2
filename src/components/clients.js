@@ -12,25 +12,25 @@ export const Clients = () => (
 
     <FlexContainerStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/dpg-media.svg")} alt="DPG Media"/>
+        <img src={require("../images/clients/dpg-media.svg")} alt="DPG Media" title="DPG Media"/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/nobel-biocare.png")} alt="Nobel Biocare"/>
+        <img src={require("../images/clients/nobel-biocare.png")} alt="Nobel Biocare" title="Nobel Biocare"/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/logo-cheops.svg")} style={{height:'3rem'}} alt="Cheops"/>
+        <img src={require("../images/clients/logo-cheops.svg")} style={{height:'3rem'}} alt="Cheops" title="Cheops"/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/ABVV-FGTB.png")} alt="ABVV-FGTB"/>
+        <img src={require("../images/clients/ABVV-FGTB.png")} alt="ABVV-FGTB" title="ABVV-FGTB"/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/digipolis.png")} alt="Digipolis"/>
+        <img src={require("../images/clients/digipolis.png")} alt="Digipolis" title="Digipolis"/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/cronos-groep.png")} alt="Cronos"/>
+        <img src={require("../images/clients/cronos-groep.png")} alt="Cronos" title="CronosCronos"/>
       </FlexItemStyled>
       <FlexItemStyled>
-        <img src={require("../images/clients/de-juristen.jpg")} style={{height:'7rem'}} alt="De Juristen"/>
+        <img src={require("../images/clients/de-juristen.jpg")} style={{height:'7rem'}} alt="De Juristen" title="De Juristen"/>
       </FlexItemStyled>
     </FlexContainerStyled>
   </div>
