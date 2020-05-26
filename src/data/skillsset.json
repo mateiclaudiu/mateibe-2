@@ -31,7 +31,7 @@
     "type": "frontend",
     "title": "Frontend Development",
     "image": "",
-    "text": "",
+    "text": "<strong>Fast and responsive</strong> Single-Page Applications that gives the user a powerful user experience? Definitely!",
     "skills": [
       {
         "skill": "javascript",
@@ -59,7 +59,7 @@
     "type": "website",
     "title": "Website Development",
     "image": "",
-    "text": "Do you need a nice looking and professional website with a good user experience for your organisation or business? <b>Let's build it together!</b>",
+    "text": "Do you need a nice looking and professional website with a good user experience for your organisation or business? <strong>Let's build it together!</strong>",
     "skills": [
       {
         "skill": "Netifly",
@@ -98,7 +98,7 @@
         "level": 93
       },
       {
-        "skill": "Hexadiagonal Architecture",
+        "skill": "Hexagonal Architecture",
         "level": 87
       },
       {
