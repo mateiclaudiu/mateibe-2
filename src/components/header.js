@@ -5,7 +5,7 @@ import styled from "styled-components"
 import { MyDot } from "./mydot"
 import { GiHamburgerMenu } from "react-icons/gi"
 
-const ToggleStyled = styled.button`
+const ToggleStyled = styled.div`
   color: white;
   font-size: 2rem;
   
