@@ -8,7 +8,7 @@ const top = () => {
 }
 
 export const BackToTop = () => (
-  <BackToTopStyled>
-    <div onClick={top}><AiOutlineArrowUp/></div>
+  <BackToTopStyled  onClick={top}>
+    <AiOutlineArrowUp/>
   </BackToTopStyled>
 )

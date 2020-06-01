@@ -384,8 +384,13 @@ export const BackToTopStyled = styled.div`
   //border-bottom: 1px solid gray;
   cursor:pointer;
    @media (min-width: 768px) {
-    display: none;
+   // display: none;
   } 
+  
+  : hover {
+    background-color: rgba(217,117,120);
+    transition-duration: 0.2s;
+  }
 `
 
 export const FlexContainerStyled = styled.div`
