@@ -153,10 +153,11 @@ const Header = ({ siteTitle }) => {
       </h1>
       <NavStyled toggled={toggled}>
         <ul id="navigation">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/#hello">Hello</Link></li>
           <li><Link to="/#skills">Skills</Link></li>
           <li><Link to="/#projects-experience">Projects experience</Link></li>
-          <li><Link to="/#contact" activeStyle={{ color: "#d97478" }}>Contact</Link></li>
+          <li><Link to="/#education">Education</Link></li>
+          <li><Link to="/#contact">Contact</Link></li>
         </ul>
       </NavStyled>
     </HeaderDivStyled>

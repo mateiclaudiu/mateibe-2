@@ -3,7 +3,7 @@ import React from "react"
 import { SectionTitle } from "./section-title"
 
 export const Hello = () => (
-  <div>
+  <div id="hello">
     <SectionTitle title={"Hello & Welcome"} subtitle={"A small introduction"}/>
     <div style={{ fontFamily: "Poppins" }}>
       I am Claudiu Matei, a software developer, with over four years of experience as a consultant for different big organisations in Belgium.

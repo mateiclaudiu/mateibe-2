@@ -86,6 +86,10 @@ module.exports = {
               priority: 0.7,
             },
             {
+              url: `${site.siteMetadata.siteUrl}#hello`,
+              changefreq: `daily`,
+              priority: 0.7,
+            },            {
               url: `${site.siteMetadata.siteUrl}#skills`,
               changefreq: `daily`,
               priority: 0.7,
@@ -101,7 +105,7 @@ module.exports = {
               priority: 0.7,
             },
             {
-              url: `${site.siteMetadata.siteUrl}#certificates`,
+              url: `${site.siteMetadata.siteUrl}#education`,
               changefreq: `daily`,
               priority: 0.7,
             }
