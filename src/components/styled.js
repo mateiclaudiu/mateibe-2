@@ -310,20 +310,21 @@ export const TwoBlockTextStyled = styled.div`
   color: black;
   background: ${props => props.background_color};
   padding: 3rem;
-  height: 25rem;
+  //height: 25rem;
   border-bottom: 1px solid ${props => props.border_color} ;
   //border-top: 1px solid ${props => props.border_color} ;
   @media (min-width: 768px) {
     padding: 4rem;
     width: 50%;
     border: none;
+    height: 25rem;
   }  
 `
 export const TwoBlockImgStyled = styled.div`
  // background: url("https://my-religion.cmsmasters.net/wp-content/uploads/2016/05/Depositphotos_76136149_original-1.jpg");
    color: white;
   background-color: ${props => props.background_color};
-  height: 25rem;
+  //height: 25rem;
   padding: 3rem;
   background-size: cover;
   background-position-x: center;
@@ -331,6 +332,7 @@ export const TwoBlockImgStyled = styled.div`
   @media (min-width: 768px) {
     width: 50%;
     background-position-y: inherit;
+    height: 25rem;
   }  
 `
 export const MyDotStyled = styled.span`
