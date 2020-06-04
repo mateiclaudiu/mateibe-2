@@ -62,12 +62,8 @@
     "text": "Do you need a nice looking and professional website with a good user experience for your organisation or business that looks nice on a desktop, tablet and smartphone? <strong>Let's build it together!</strong>",
     "skills": [
       {
-        "skill": "Netifly",
-        "level": 80
-      },
-      {
-        "skill": "Gatsby",
-        "level": 83
+        "skill": "CMS",
+        "level": 76
       },
       {
         "skill": "Wordpress",
@@ -75,11 +71,11 @@
       },
       {
         "skill": "UI",
-        "level": 86
+        "level": 89
       },
       {
         "skill": "UX",
-        "level": 75
+        "level": 83
       }
     ]
   },
