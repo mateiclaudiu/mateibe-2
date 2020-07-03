@@ -60,7 +60,7 @@ const Layout = ({ children }) => {
             <RiStackOverflowLine/> <a style={{ textDecoration: "none", color: "white" }} href="https://stackoverflow.com/users/4834129/claudiu" target="_blank">Stackoverflow</a>
           </div>
           <div>
-            <GrTwitter/> <a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/ClaudiuStack" target="_blank">Twitter</a>
+            <GrTwitter/> <a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/ClaudiuStack" target="_blank">@ClaudiuStack</a>
           </div>
           {/*<FooterBlockStyled>
             <FooterBlockTitleStyled >matei bv</FooterBlockTitleStyled>
