@@ -10,7 +10,7 @@ const firstText = "a <strong>developer</strong> with passion for <strong>improve
 const secondText = "<strong><span style=\"color: #f7a145;\">im</span><span style=\"color: #007a80;\">agin</span><span style=\"color:" +
   " #d97578;\">ativ</span><span style=\"color: #424555;\">e</span>"
 const thirdText = "a <strong>proud</strong> fiancé"
-const fourthText = "LOVE jamming on my Korg"
+const fourthText = "love jamming on my KORG"
 
 const Intro = ({ color }) => (
   <IntroColorStyled color={color}>
