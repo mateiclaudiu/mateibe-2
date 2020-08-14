@@ -9,7 +9,7 @@ import { GiPianoKeys } from 'react-icons/gi';
 const firstText = "a <strong>developer</strong> with passion for <strong>improvement</strong> and <strong>crafting</strong>"
 const secondText = "<strong><span style=\"color: #f7a145;\">im</span><span style=\"color: #007a80;\">agin</span><span style=\"color:" +
   " #d97578;\">ativ</span><span style=\"color: #424555;\">e</span>"
-const thirdText = "a <strong>proud</strong> fiancé"
+const thirdText = "a proud husband"
 const fourthText = "love jamming on my KORG"
 
 const Intro = ({ color }) => (
@@ -38,7 +38,7 @@ const Intro = ({ color }) => (
             .deleteChars(11)
             .typeString(thirdText)
             .pauseFor(1000)
-            .deleteChars(thirdText.length - 13)
+            .deleteChars(thirdText.length)
             .typeString(fourthText)
             .pauseFor(1000)
             .deleteChars(fourthText.length)
