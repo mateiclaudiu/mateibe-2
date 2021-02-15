@@ -1,16 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import { IntroColorStyled, ItalicTitleStyled, Title2Styled, TitleStyled, TrackingInContractTextStyled } from "./styled"
+import { IntroColorStyled, Title2Styled, TitleStyled, TrackingInContractTextStyled } from "./styled"
 import { MyDot } from "./mydot"
 import Typewriter from "typewriter-effect"
-import { GiPianoKeys } from 'react-icons/gi';
-
-const firstText = "a <strong>developer</strong> with passion for <strong>improvement</strong> and <strong>crafting</strong>"
-const secondText = "<strong><span style=\"color: #f7a145;\">im</span><span style=\"color: #007a80;\">agin</span><span style=\"color:" +
-  " #d97578;\">ativ</span><span style=\"color: #424555;\">e</span>"
-const thirdText = "a proud husband"
-const fourthText = "love jamming on my KORG"
 
 const Intro = ({ color }) => (
   <IntroColorStyled color={color}>
@@ -23,26 +14,31 @@ const Intro = ({ color }) => (
         className={"typeWriter"}
         options={{ cursor: "", loop: true, delay: 50 }}
         onInit={(typewriter) => {
+          let passionForImprovementAndCrafting = "a developer with passion for improvement and crafting"
+          let aProudHusband = "a proud husband and father"
+          let loveJammingOnMyKORG = "love jamming on my KORG"
+          let aPeopleGuy = "a people guy"
           typewriter
             .pauseFor(1500)
             .typeString("Hello World! ")
             .typeString("I am Claudiu Matei")
             .pauseFor(1000)
             .deleteChars(13)
-            .typeString(firstText)
+            .typeString(passionForImprovementAndCrafting)
             .pauseFor(1000)
             .changeDeleteSpeed(2)
-            .deleteChars(firstText.length - (17 * 3))
-            .typeString(secondText)
+            .deleteChars(passionForImprovementAndCrafting.length)
+            .typeString("<strong><span style=\"color: #f7a145;\">im</span><span style=\"color: #007a80;\">agin</span><span style=\"color:" +
+              " #d97578;\">ativ</span><span style=\"color: #424555;\">e</span>")
             .pauseFor(1000)
             .deleteChars(11)
-            .typeString(thirdText)
+            .typeString(aProudHusband)
             .pauseFor(1000)
-            .deleteChars(thirdText.length)
-            .typeString(fourthText)
+            .deleteChars(aProudHusband.length)
+            .typeString(aPeopleGuy)
             .pauseFor(1000)
-            .deleteChars(fourthText.length)
-            .typeString("enjoy spending time with my family")
+            .deleteChars(aPeopleGuy.length)
+            .typeString(loveJammingOnMyKORG)
             .pauseFor(1000)
             .start()
         }}
