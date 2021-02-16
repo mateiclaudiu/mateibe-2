@@ -38,20 +38,30 @@ module.exports = {
         icon: `src/images/m.png`, // This path is relative to the root of the site.
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Poppins`,
+    //         variants: [`300`, `400`,`500`, `600`, `900`],
+    //       },
+    //       {
+    //         family: `Roboto`,
+    //         subsets: [`latin`],
+    //       },
+    //     ],
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Poppins`,
-            variants: [`300`, `400`,`500`, `600`, `900`],
-          },
-          {
-            family: `Roboto`,
-            subsets: [`latin`],
-          },
+          `Poppins\:300,400,500,600,900`,
+          `Roboto latin` // you can also specify font weights and styles
         ],
-      },
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-plugin-styled-components`,
