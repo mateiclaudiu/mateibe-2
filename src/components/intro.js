@@ -6,8 +6,8 @@ import Typewriter from "typewriter-effect"
 const Intro = ({ color }) => (
   <IntroColorStyled color={color}>
     <div style={{ margin: `auto` }}>
-      <TitleStyled fontSize={"2.5em"} color={"#007a80"}>software development<MyDot/></TitleStyled>
-      <TrackingInContractTextStyled><Title3Styled fontSize={"1.1em"} color={"#d97478"}>step by step to big improvement</Title3Styled></TrackingInContractTextStyled>
+      <TitleStyled fontSize={"3em"} color={"#007a80"}>software development<MyDot/></TitleStyled>
+      <TrackingInContractTextStyled><Title3Styled fontSize={"1.3em"} color={"#d97478"}>step by step to big improvement</Title3Styled></TrackingInContractTextStyled>
 
 
       <Typewriter
