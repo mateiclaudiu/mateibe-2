@@ -22,6 +22,14 @@ export const Title2Styled = styled.h3`
   line-height: 1;
   margin-bottom: 1rem;
 `
+export const Title3Styled = styled.h3`
+  color: ${props => props.color};
+  font-size: ${props => props.fontSize};
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1rem;
+`
 
 export const IntroStyled = styled.div`
   padding: ${props => props.padding};

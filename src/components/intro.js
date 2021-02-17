@@ -1,20 +1,20 @@
 import React from "react"
-import { IntroColorStyled, Title2Styled, TitleStyled, TrackingInContractTextStyled } from "./styled"
+import { IntroColorStyled, Title3Styled, TitleStyled, TrackingInContractTextStyled } from "./styled"
 import { MyDot } from "./mydot"
 import Typewriter from "typewriter-effect"
 
 const Intro = ({ color }) => (
   <IntroColorStyled color={color}>
     <div style={{ margin: `auto` }}>
-      <TitleStyled fontSize={"6em"} color={"#007a80"}>matei<MyDot/></TitleStyled>
-      <TrackingInContractTextStyled><Title2Styled fontSize={"1.5em"} color={"#d97478"}>Software Developer</Title2Styled></TrackingInContractTextStyled>
+      <TitleStyled fontSize={"2.5em"} color={"#007a80"}>software development<MyDot/></TitleStyled>
+      <TrackingInContractTextStyled><Title3Styled fontSize={"1.1em"} color={"#d97478"}>step by step to big improvement</Title3Styled></TrackingInContractTextStyled>
 
 
       <Typewriter
         className={"typeWriter"}
         options={{ cursor: "", loop: true, delay: 50 }}
         onInit={(typewriter) => {
-          let passionForImprovementAndCrafting = "a developer with passion for improvement and crafting"
+          let passionForImprovementAndCrafting = "a freelance developer with passion for improvement and crafting"
           let aProudHusband = "a proud husband and father"
           let loveJammingOnMyKORG = "love jamming on my KORG"
           let aPeopleGuy = "a people guy"
