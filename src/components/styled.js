@@ -115,7 +115,8 @@ export const ColumnStyled = styled.div`
 `
 
 export const BannerStyled = styled.div`
-  background-color: #f7a145;
+  //background-color: #f7a145;
+  background-color: #dadada;
   padding: 1% 5%;
   width:30%;
   width: 100%;
