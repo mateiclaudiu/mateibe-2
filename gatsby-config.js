@@ -58,7 +58,8 @@ module.exports = {
       options: {
         fonts: [
           `Poppins\:300,400,500,600,900`,
-          `Roboto latin` // you can also specify font weights and styles
+          `Roboto latin`, // you can also specify font weights and styles
+          `Rokkitt` // you can also specify font weights and styles
         ],
         display: 'swap'
       }

@@ -337,7 +337,7 @@ export const TwoBlockImgStyled = styled.div`
 `
 export const MyDotStyled = styled.span`
   color: ${props => props.color};
-  font-family: Poppins;
+  font-family: Rokkitt;
 `
 
 MyDotStyled.defaultProps = {
