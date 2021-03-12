@@ -37,7 +37,7 @@ const Intro = ({ color }) => (
             .deleteChars(aProudHusband.length)
             .typeString(aPeopleGuy)
             .pauseFor(1000)
-            .deleteChars(aPeopleGuy.length)
+            .deleteChars(aPeopleGuy.length+3)
             .typeString(loveJammingOnMyKORG)
             .pauseFor(1000)
             .start()
