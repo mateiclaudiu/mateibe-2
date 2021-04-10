@@ -53,14 +53,14 @@ const Layout = ({ children }) => {
 
         <FooterStyled>
           <div>
-            <GrLinkedin/> <a style={{ textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/claudiumatei/" target="_blank">Let's connect
+            <GrLinkedin/> <a style={{ textDecoration: "none", color: "gray" }} href="https://www.linkedin.com/in/claudiumatei/" target="_blank">Let's connect
             on LinkedIn</a>
           </div>
           <div>
-            <RiStackOverflowLine/> <a style={{ textDecoration: "none", color: "white" }} href="https://stackoverflow.com/users/4834129/claudiu" target="_blank">Stackoverflow</a>
+            <RiStackOverflowLine/> <a style={{ textDecoration: "none", color: "gray" }} href="https://stackoverflow.com/users/4834129/claudiu" target="_blank">Stackoverflow</a>
           </div>
           <div>
-            <GrTwitter/> <a style={{ textDecoration: "none", color: "white" }} href="https://twitter.com/ClaudiuStack" target="_blank">@ClaudiuStack</a>
+            <GrTwitter/> <a style={{ textDecoration: "none", color: "gray" }} href="https://twitter.com/ClaudiuStack" target="_blank">@ClaudiuStack</a>
           </div>
           {/*<FooterBlockStyled>
             <FooterBlockTitleStyled >matei bv</FooterBlockTitleStyled>
@@ -68,10 +68,13 @@ const Layout = ({ children }) => {
             <div>Antwerpen 0000</div>
             <div>BRW XXX XXXX XXX</div>
           </FooterBlockStyled>*/}
-          <div style={{ marginTop: `2rem`, color: `white` }}>
+          {/*<div style={{ marginTop: `2rem`, color: `white` }}>*/}
+          {/*  <Link to="/termsandconditions">Terms and Conditions</Link>*/}
+          {/*</div>*/}
+          <div style={{ marginTop: `2rem`, color: `gray` }}>
             © {new Date().getFullYear()}
             {` `}
-            <a href="https://www.matei.be/" target="_blank">matei</a> - last update {data.currentBuildDate.currentDate}
+            <a href="https://www.matei.be/" target="_blank">matei bv</a> - last updated {data.currentBuildDate.currentDate}
           </div>
         </FooterStyled>
       </div>
