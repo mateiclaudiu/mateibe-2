@@ -11,14 +11,14 @@
       },
       {
         "skill": "kotlin",
-        "level": 63
+        "level": 75
       },
       {
-        "skill": "aws",
+        "skill": "Cloud Development (AWS, IBM Bluemix)",
         "level": 87
       },
       {
-        "skill": "database",
+        "skill": "database (DynamoDB, MySQL, PostgreSQL, Oracle, ...)",
         "level": 81
       },
       {
