@@ -14,7 +14,7 @@
         "level": 75
       },
       {
-        "skill": "Cloud Development (AWS, IBM Bluemix)",
+        "skill": "Cloud Development (AWS: Serverless, API Gateway, S3, ECS, LB, SNS, SQS, ...)",
         "level": 87
       },
       {
@@ -95,11 +95,15 @@
       },
       {
         "skill": "Hexagonal Architecture",
-        "level": 87
+        "level": 92
       },
       {
         "skill": "Design Patterns",
         "level": 79
+      },
+      {
+        "skill": "Event Driven Architecture",
+        "level": 88
       },
       {
         "skill": "TDD",
