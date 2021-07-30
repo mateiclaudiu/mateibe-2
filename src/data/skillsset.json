@@ -113,10 +113,18 @@
   },
   {
     "type": "other",
-    "title": "Language",
+    "title": "Soft skills",
     "image": "",
     "text": "Programming languages are very important as a software developer, but as a living being, human languages are very useful.",
     "skills": [
+      {
+        "skill": "coaching",
+        "level": 82
+      },
+      {
+        "skill": "team ft. individual",
+        "level": 92
+      },
       {
         "skill": "English",
         "level": 80
