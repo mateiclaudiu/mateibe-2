@@ -14,6 +14,10 @@
         "level": 75
       },
       {
+        "skill": "nodejs",
+        "level": 70
+      },
+      {
         "skill": "Cloud Development (AWS: Serverless, API Gateway, S3, ECS, LB, SNS, SQS, ...)",
         "level": 87
       },
