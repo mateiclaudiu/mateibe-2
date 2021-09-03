@@ -11,7 +11,9 @@ export const Hello = () => (
 
       <br/>
       <br/>
-      So how I could help you? I can help you with creating your software, web application and/or website.
+      <b>
+        So how I could help you? I can help you with creating your custom software, web application, mobile application and website.
+      </b>
     </div>
     <ColumnStyled>
       <div>
