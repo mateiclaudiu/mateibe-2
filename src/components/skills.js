@@ -5,7 +5,7 @@ import React from "react"
 
 export const Skills = ({skillsSet}) =>(
   <div id="skills">
-    <SectionTitle title={"Skills"}/>
+    <SectionTitle title={"Our skills"}/>
     <div id="backend" className="skillBlock">
       <TwoBlockRight skillsSet={skillsSet.edges.filter(({ node }) => node.type === "backend")[0].node}
                     color={"#424555"}
