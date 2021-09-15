@@ -14,32 +14,22 @@ const Intro = ({ color }) => (
         className={"typeWriter"}
         options={{ cursor: "", loop: true, delay: 50 }}
         onInit={(typewriter) => {
-          let passionForImprovementAndCrafting = "a freelance developer with passion for improvement and crafting"
-          let aProudHusband = "a proud husband and father"
-          let loveJammingOnMyKORG = "love jamming on my KORG"
-          let aPeopleGuy = "a people guy"
           typewriter
             .pauseFor(1500)
-            .typeString("Hello World! ")
-            .typeString("I am Claudiu Matei")
-            .pauseFor(1000)
-            .deleteChars(13)
-            .typeString(passionForImprovementAndCrafting)
-            .pauseFor(1000)
+            .typeString("We develop ")
+            .typeString("<strong>fast web applications</strong>")
             .changeDeleteSpeed(2)
-            .deleteChars(passionForImprovementAndCrafting.length)
-            .typeString("<strong><span style=\"color: #f7a145;\">im</span><span style=\"color: #007a80;\">agin</span><span style=\"color:" +
-              " #d97578;\">ativ</span><span style=\"color: #424555;\">e</span>")
             .pauseFor(1000)
-            .deleteChars(11)
-            .typeString(aProudHusband)
+            .deleteChars("fast web applications".length)
+            .typeString("<strong>user friendly mobile applications</strong>")
             .pauseFor(1000)
-            .deleteChars(aProudHusband.length)
-            .typeString(aPeopleGuy)
+            .deleteChars("user friendly mobile applications".length)
+            .typeString("<strong>beautiful websites</strong>")
             .pauseFor(1000)
-            .deleteChars(aPeopleGuy.length+4)
-            .typeString(loveJammingOnMyKORG)
+            .deleteChars("beautiful websites".length)
+            .typeString("<strong>secure and reliable backend systems</strong>")
             .pauseFor(1000)
+            .deleteChars("secure and reliable backend systems".length)
             .start()
         }}
       />
