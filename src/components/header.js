@@ -57,11 +57,12 @@ const NavStyled = styled.div`
   background:#212121;
   animation: pulseblk 6s 1;
 
-  ul{
+  nav{
     margin: 0;
+    display: grid;
   }
   
-  li{
+  a{
     border-top: 1px solid #707176;
     list-style: none;
     margin: 0;
@@ -70,7 +71,7 @@ const NavStyled = styled.div`
   
   a{
     text-decoration: none;
-    color: gray;
+    //color: gray;
   }
   a:hover{
     text-decoration: none;
@@ -87,21 +88,17 @@ const NavStyled = styled.div`
     display: ${props => props.display};
     font-size: 0.7rem;
 
-    ul{
+    nav{
       display: flex;  
       justify-content: center;
     }
     
-    li{
+    a{
       padding: 0 3rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
       border-top: none;
-      border-right: 1px solid #707176;
-      
-      a{
-        color: white;
-      }
+      //border-right: 1px solid #707176;
     }
      
     a:hover{
@@ -152,13 +149,14 @@ const Header = ({ siteTitle }) => {
         </Link>
       </h1>
       <NavStyled toggled={toggled}>
-        <ul id="navigation">
-          <li><Link to="/#hello">Hello</Link></li>
-          <li><Link to="/#skills">Skills</Link></li>
-          <li><Link to="/#projects-experience">Projects experience</Link></li>
-          <li><Link to="/#education">Education</Link></li>
-          <li><Link to="/#contact">Contact</Link></li>
-        </ul>
+        <nav id="navigation">
+            <Link to="/#hello">Hello</Link>
+            <Link to="/#skills">Skills</Link>
+            <Link to="/#projects-experience">Our clients</Link>
+            <Link to="/#education">Education</Link>
+            <Link to="/#contact">Contact</Link>
+            {/*<Link to="/termsandconditions">Terms and Conditions</Link>*/}
+        </nav>
       </NavStyled>
     </HeaderDivStyled>
   </HeaderStyled>)
