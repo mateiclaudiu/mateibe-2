@@ -145,7 +145,7 @@ const Header = ({ siteTitle }) => {
             textDecoration: `none`,
           }}
         >
-          {siteTitle}<MyDot/>
+          matei<MyDot/>
         </Link>
       </h1>
       <NavStyled toggled={toggled}>
