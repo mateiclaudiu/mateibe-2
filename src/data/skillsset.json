@@ -33,9 +33,9 @@
   },
   {
     "type": "frontend",
-    "title": "Frontend Development",
+    "title": "Web & Mobile Development",
     "image": "",
-    "text": "<strong>Fast and responsive</strong> Single-Page Applications that gives the user a powerful user experience? Definitely!",
+    "text": "<strong>Fast and responsive</strong> Web and Mobile Applications that gives the user a powerful user experience? Definitely!",
     "skills": [
       {
         "skill": "javascript",
