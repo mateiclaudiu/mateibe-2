@@ -19,7 +19,7 @@ export const Banner = () => (
         marginTop: `10px`,
         fontSize: `1.3rem`,
         fontStyle: `italic`
-      }}>"Every event in your life is an opportunity to broaden your growth and improve yourself.<br/>Be a motivation for others not only by what you say but by what you do."</p> - Claudiu Matei
+      }}>"Every event in your life is an opportunity to broaden your growth and improve yourself.<br/>Be a motivation for others not only by what you say but by what you do." - Claudiu Matei</p>
     </BannerTextStyled>
   </BannerStyled>
 )
