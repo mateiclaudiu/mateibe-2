@@ -13,17 +13,17 @@ import Header from "./header"
 import "./layout.css"
 import { FooterStyled, LinkedInButton } from "./styled"
 import styled from "styled-components"
-import { GrLinkedin ,GrTwitter} from 'react-icons/gr';
+import { GrLinkedin, GrTwitter } from "react-icons/gr"
 import { RiStackOverflowLine } from "react-icons/ri"
 
 const FooterBlockStyled = styled.div`
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 `
 
 const FooterBlockTitleStyled = styled.div`
   font-weight: 600;
-  color:white;
- `
+  color: white;
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title}/>
+      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
@@ -53,14 +53,14 @@ const Layout = ({ children }) => {
 
         <FooterStyled>
           <div>
-            <GrLinkedin/> <a style={{ textDecoration: "none", color: "gray" }} href="https://www.linkedin.com/in/claudiumatei/" target="_blank">Let's connect
+            <GrLinkedin /> <a style={{ textDecoration: "none", color: "gray" }} href="https://www.linkedin.com/company/matei/" target="_blank">Let's connect
             on LinkedIn</a>
           </div>
           <div>
-            <RiStackOverflowLine/> <a style={{ textDecoration: "none", color: "gray" }} href="https://stackoverflow.com/users/4834129/claudiu" target="_blank">Stackoverflow</a>
+            <RiStackOverflowLine /> <a style={{ textDecoration: "none", color: "gray" }} href="https://stackoverflow.com/users/4834129/claudiu" target="_blank">Stackoverflow</a>
           </div>
           <div>
-            <GrTwitter/> <a style={{ textDecoration: "none", color: "gray" }} href="https://twitter.com/ClaudiuStack" target="_blank">@ClaudiuStack</a>
+            <GrTwitter /> <a style={{ textDecoration: "none", color: "gray" }} href="https://twitter.com/ClaudiuStack" target="_blank">@ClaudiuStack</a>
           </div>
           {/*<FooterBlockStyled>
             <FooterBlockTitleStyled >matei bv</FooterBlockTitleStyled>
@@ -74,7 +74,11 @@ const Layout = ({ children }) => {
           <div style={{ marginTop: `2rem`, color: `gray` }}>
             © {new Date().getFullYear()}
             {` `}
-            <a href="https://www.matei.be/" target="_blank">matei bv</a> - last updated {data.currentBuildDate.currentDate}
+            <a href="https://www.matei.be/" target="_blank">Matei bv</a><br/>
+            Papenblok 13, 2650 Edegem<br/>
+            BTW: BE 0763 732 369<br/>
+            +32 477 70 01 89<br/>
+            Last updated {data.currentBuildDate.currentDate}
           </div>
         </FooterStyled>
       </div>
