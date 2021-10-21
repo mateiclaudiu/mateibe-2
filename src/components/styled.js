@@ -249,6 +249,7 @@ export const ContactStyled = styled.div`
   background-color: #424555;
 //  background-color: #25797f;
 //  padding: 2%;
+  color: white;
   padding-bottom: 3rem;
   input{
     width: 100%;
