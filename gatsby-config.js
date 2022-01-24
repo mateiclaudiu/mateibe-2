@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Matei`,
-    description: `websites, web & mobile apps development`,
+    description: `web/mobile apps, websites, backends`,
     author: `@Claudiu Matei`,
     siteUrl: `https://www.matei.be`,
   },
