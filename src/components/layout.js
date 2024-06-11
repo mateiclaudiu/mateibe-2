@@ -75,9 +75,6 @@ const Layout = ({ children }) => {
             © {new Date().getFullYear()}
             {` `}
             <a href="https://www.matei.be/" target="_blank">Matei bv</a><br/>
-            Papenblok 13, 2650 Edegem<br/>
-            BTW: BE 0763 732 369<br/>
-            +32 477 70 01 89<br/>
             Last updated {data.currentBuildDate.currentDate}
           </div>
         </FooterStyled>
